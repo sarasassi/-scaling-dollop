@@ -1,0 +1,23 @@
+ALGORITHM checkpoint
+VAR 
+c : CHAR;
+    len, vl, wl : integer;
+
+
+BEGIN 
+vl:=0;
+wrd:=0;
+len:=0;
+REPEAT
+
+    Read (c) ;
+    if c = "a" or "e" or "y" or "u" or "i" write (vl=vl+1) 
+    and if  c= " "  write (wl=wl+1) 
+    write len= ( len+1)
+    Break 
+
+UNTIL  ( c= "." ) 
+
+
+    
+
